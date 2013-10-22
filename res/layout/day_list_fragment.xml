@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lnDayListContent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btnGotoDetailTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fragment1" />
+
+    <ListView
+        android:id="@+id/lvDayList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bgListView"
+        android:divider="@color/grey"
+        android:dividerHeight="1dp" >
+    </ListView>
+
+</LinearLayout>
