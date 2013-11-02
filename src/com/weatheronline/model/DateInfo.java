@@ -12,7 +12,6 @@ public class DateInfo implements Serializable {
 	private String status;
 	private String minTemp;
 	private String maxTemp;
-	
 	private String urlIcon;
 
 	public String getDate() {
