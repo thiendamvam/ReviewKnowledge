@@ -12,6 +12,8 @@ public class DateInfo implements Serializable {
 	private String status;
 	private String minTemp;
 	private String maxTemp;
+	
+	private String urlIcon;
 
 	public String getDate() {
 		return date;
@@ -47,6 +49,20 @@ public class DateInfo implements Serializable {
 
 	public static long getSerialversionuid() {
 		return serialVersionUID;
+	}
+
+	/**
+	 * @return the urlIcon
+	 */
+	public String getUrlIcon() {
+		return urlIcon;
+	}
+
+	/**
+	 * @param urlIcon the urlIcon to set
+	 */
+	public void setUrlIcon(String urlIcon) {
+		this.urlIcon = urlIcon;
 	}
 
 }

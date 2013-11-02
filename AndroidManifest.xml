@@ -14,7 +14,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppCompat" >
         <activity
-            android:name="com.weatheronline.fragments.MainActivity"
+            android:name="com.weatheronline.MainActivity"
             android:label="@string/app_name"
             android:theme="@android:style/Theme.WithActionBar" >
             <intent-filter>
